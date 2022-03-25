@@ -73,11 +73,25 @@ aside li{
 }
 
 aside ul {
-    border: groove;
+    list-style-type: none;
+    display: inline-block;
+    width: 100%;
 }
 
 aside ul li{
-    border: groove;
+    border: 1px solid black;
+    border-bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+.end {
+    border-bottom: 1px solid black;
+}
+aside ul li span{
+    display: inline-block;
+}
+aside ul li img {
+    width: 25px;
 }
 
 @media (max-width: 747px) {
@@ -97,4 +111,48 @@ footer{
     font-variant: small-caps;
     clear: both;
     border-top: 5px double orangered;
+}
+
+#contact {
+    position: relative;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown-content {
+    margin-top: 60px;
+    position: absolute;
+    display: none;
+    background-color: #ff4801;
+    padding: 0;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content :hover {
+    background-color: white;
+    color: orangered;
+}
+.sub-menu {
+    width: 100%;
+    /* margin: 0px; */
+    /* top: 20px; */
+    background-color: #ff4801;
+}
+nav div div {
+    display: inline-block;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav {
+    padding: 0;
+
 }
