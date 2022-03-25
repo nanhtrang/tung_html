@@ -1,0 +1,100 @@
+header{
+    position: relative;
+}
+.header-text{
+    position: absolute;
+    top: 155px;
+    color: white;
+    font-size: 38px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 0.6cm;
+    text-shadow: -1px -1px 0.3em red;
+}
+img{
+    width: 100%;
+    display: block;
+}
+nav{
+    background-color: rgb(255, 72, 0);
+    width: 100%;
+    height: 30px;
+    padding: 1px;
+    padding-top: 9px;
+}
+nav div{
+    text-align: center;
+    color: white;
+}
+nav div a{
+    color: white;
+    font-variant: small-caps;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 0;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+article{
+    background-color: white;
+    width: 70%;
+    float: left;
+    clear: both;
+    height: 300px;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+nav a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+.poly{
+    font-size: 52px;
+    color: white;
+}
+
+aside{
+    float: right;
+    width: 30%;
+    height: 400px;
+    line-height: 2;
+    margin-top: -14px;
+    font-size: 18px;
+    font-variant: small-caps;
+    color: orange;
+}
+aside li{
+    color: orange;
+    text-decoration: none;
+}
+
+aside ul {
+    border: groove;
+}
+
+aside ul li{
+    border: groove;
+}
+
+@media (max-width: 747px) {
+    .header-text{
+        top: 100px;
+    }
+    .text {
+        top: 165px;
+    }
+}
+
+footer{
+    line-height: 50px;
+    height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+    border-top: 5px double orangered;
+}
