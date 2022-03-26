@@ -1,0 +1,21 @@
+.line{
+    line-height: 47px;
+    font-size: 19px;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+textarea{
+    margin-top: -11px;
+}
+.viethoa{
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: -11px;
+}
+.quoctich{
+    font-size: 19px;
+    font-weight: bold;
+    font-variant: small-caps;
+    line-height: 3;
+}

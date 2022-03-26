@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Lab9Bai2.css">
+</head>
+
+<body>
+    <form>
+        <label class="viethoa">Họ và tên:</label> <br>
+        <input name="id" type="text"> <br>
+        <label class="line">Giới tính: </label>
+        <label>
+            <input id="html" type="radio" name="fav_language" value="HTML">
+            <label class="viethoa" for="html">Nam</label>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label class="viethoa" for="css">Nữ</label><br>
+        </label>
+        <label class="viethoa">Hình ảnh: </label> <br>
+        <button type="menu">Choose File</button> No file chosen <br>
+        <label class="quoctich">Quốc tịch:</label> <br>
+        <select name="cars" id="cars">
+            <option value="UnitedStates">UnitedStates</option>
+            <option value="Vietnam">Việt Nam</option>
+            <option value="Japan">Japan</option>
+            <option value="China">China</option>
+        </select> <br>
+        <label class="quoctich">Sở thích:</label> <br>
+        <label class="viethoa">
+            <input type="checkbox" name="thethao">
+            Thể thao
+        </label>
+        <label class="viethoa">
+            <input type="checkbox" name="dulich">
+            Du lịch
+        </label>
+        <label class="viethoa">
+            <input type="checkbox" name="amnhac">
+            Âm nhạc
+        </label>  
+        <label class="viethoa">
+            <input type="checkbox" name="amthuc">
+            Ẩm thực
+        </label> <br>  
+        <label class="line">Ghi chú:</label> <br>
+        <textarea id="w3" name="w3" rows="5" cols="50" value="">
+        </textarea>
+        <hr>
+        <button type="submit">Đăng kí</button>
+        <button type="reset">Nhập lại</button>
+    </form>
+</body>
+
+</html>
