@@ -60,7 +60,7 @@ nav a:hover{
 aside{
     float: right;
     width: 30%;
-    height: 400px;
+    height: 360px;
     line-height: 2;
     margin-top: -14px;
     font-size: 18px;
@@ -154,5 +154,4 @@ nav div {
 }
 nav {
     padding: 0;
-
 }
