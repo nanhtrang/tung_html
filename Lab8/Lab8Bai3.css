@@ -121,6 +121,8 @@ footer{
 }
 .dropdown-content {
     margin-top: 60px;
+    margin-left: 130px;
+    width: 200px;
     position: absolute;
     display: none;
     background-color: #ff4801;
@@ -129,7 +131,12 @@ footer{
 .dropdown:hover .dropdown-content {
     display: block;
 }
-.dropdown-content :hover {
+.dropdown-content .sub-menu:hover{
+    background-color: white;
+    color: orangered;
+    border: 1px solid rgb(183, 185, 187);
+}
+.sub-menu:hover a {
     background-color: white;
     color: orangered;
 }
@@ -138,6 +145,8 @@ footer{
     /* margin: 0px; */
     /* top: 20px; */
     background-color: #ff4801;
+    display: flex;
+    justify-content: start;
 }
 nav div div {
     display: inline-block;
