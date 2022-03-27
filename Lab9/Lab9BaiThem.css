@@ -1,28 +1,39 @@
-img{
+.picture{
     background-color: orangered;
     display: block;
+    width: 220px;
+    padding-top: 15px;
+    padding-left: 17px;
+}
+
+nav{
+    background-color: rgba(255, 166, 0, 0.384);
 }
 
 nav div {
-    background-color: rgba(255, 196, 0, 0.637);
+    background-color: rgba(255, 166, 0, 0.384);
     width: 100%;
-    height: 100%;
+    height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 500px;
 }
 
 nav div a{
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    padding: 0;
-    margin: 0 10px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav div div {
     display: inline-block;
     display: flex;
+    height: 100%;
     align-items: center;
     justify-content: center;
 }
@@ -34,4 +45,65 @@ nav {
 body{
     padding: 0px;
     margin: 0px;
+}
+
+header{
+    background-color: orangered;
+    height: 110px;
+}
+
+button{
+    border: 0.9px solid white;
+    background-color: rgb(8, 8, 116);
+    color: white;
+    text-align: center;
+    padding-left: 14px;
+    padding-right: 14px;
+    height: 21px;
+    margin-left: 10px;
+    position: absolute;
+    font-size: 11PX;
+}
+.banner{
+    width: 100%;
+    margin-top: 4px;
+}
+
+.mau{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.anh1{
+    border: 2px solid orange;
+    padding: 12px;
+    text-align: left;
+    width: 230px;
+}
+
+.mau1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: brown;
+    line-height: 2;
+    font-size: 19px;
+    text-align: left
+}
+
+.text1{
+    font-family: ;
+    text-align: left;
+}
+
+.anh2{
+    border: 2px solid orange;
+    width: 400px;
+    padding: 12px;
+    float: right;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
 }
